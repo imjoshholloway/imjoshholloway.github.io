@@ -7,19 +7,28 @@ body {
 }
 
 .intro-block .title {
+  animation-duration: 2s;
+  animation-name: slidein;
   font-size: 3.5em;
   margin: 0;
 }
 
 .intro-block .interests {
+  animation-duration: 2s;
+  animation-name: slidein;
   padding: 0;
   margin: 5px 0 0 0;
   letter-spacing: 0.2em;
 }
 
 .intro-block .interests li {
+  transition: color 1s ease;
   color: #afafaf;
   display: inline-block;
+}
+
+.intro-block .interests li:hover {
+  color: #000;
 }
 
 .intro-block .interests li:not(:last-child):after {
@@ -50,8 +59,15 @@ footer .social-links a:hover {
   color: #000;
 }
 
-.socicon {
-  font-family: 'socicon' !important;
+@keyframes slidein {
+  from {
+    margin-left: -100%;
+  }
+
+  to {
+    margin-left: 0;
+    width: 100%;
+  }
 }
 
 /*
