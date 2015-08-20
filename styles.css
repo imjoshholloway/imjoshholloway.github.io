@@ -13,11 +13,12 @@ body {
 
 .intro-block .interests {
   padding: 0;
+  margin: 0;
+  font-size: 1.2em;
 }
 
 .intro-block .interests li {
   color: #ddd;
-  font-size: 0.8em;
   letter-spacing: 0.15em;
   display: inline-block;
 }
