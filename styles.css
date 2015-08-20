@@ -13,13 +13,12 @@ body {
 
 .intro-block .interests {
   padding: 0;
-  margin: 0;
-  font-size: 1.2em;
+  margin: 5px 0 0 0;
+  letter-spacing: 0.2em;
 }
 
 .intro-block .interests li {
-  color: #ddd;
-  letter-spacing: 0.15em;
+  color: #afafaf;
   display: inline-block;
 }
 
@@ -44,7 +43,7 @@ footer .social-links a:visited {
   transition: color 1s ease;
   font-size: 1.5em;
   text-decoration: none;
-  color: #ddd;
+  color: #afafaf;
 }
 
 footer .social-links a:hover {
