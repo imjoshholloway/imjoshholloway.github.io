@@ -15,6 +15,7 @@ ul {
   animation-duration: 2s;
   animation-name: slidein;
   font-size: 3.5em;
+  font-weight: 100;
   margin: 0;
 }
 
@@ -29,6 +30,7 @@ ul {
 .intro-block .interests li {
   transition: color 1s ease;
   color: #afafaf;
+  font-weight: 100;
   display: inline-block;
 }
 
@@ -53,15 +55,24 @@ footer {
 }
 
 .social-links a,
-.social-links a:visited {
-  transition: color 1s ease;
+.social-links a:visited,
+.social-links a * {
+  transition: color 0.8s ease;
   font-size: 1.5em;
   text-decoration: none;
   color: #afafaf;
 }
 
-.social-links a:hover {
+.social-links a:hover .socicon-github {
   color: #000;
+}
+
+.social-links a:hover .socicon-linkedin {
+  color: #0077b5;
+}
+
+.social-links a:hover .socicon-twitter {
+  color: #28aae1;
 }
 
 @keyframes slidein {
