@@ -2,6 +2,11 @@ body {
   font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 .intro-block {
   margin: 210px 0 0 210px;
 }
@@ -42,20 +47,20 @@ footer {
   margin: 0 210px 0 0;
 }
 
-footer .social-links li {
+.social-links li {
   display: inline-block;
   padding: 0 10px;
 }
 
-footer .social-links a,
-footer .social-links a:visited {
+.social-links a,
+.social-links a:visited {
   transition: color 1s ease;
   font-size: 1.5em;
   text-decoration: none;
   color: #afafaf;
 }
 
-footer .social-links a:hover {
+.social-links a:hover {
   color: #000;
 }
 
@@ -69,6 +74,26 @@ footer .social-links a:hover {
     width: 100%;
   }
 }
+
+/*
+ * Media queries
+ */
+ @media (max-width: 600px) {
+   .intro-block {
+     margin: 0;
+     text-align: center;
+   }
+
+   .intro-block .title, .intro-block .interests {
+     animation: none;
+   }
+
+   footer {
+     margin: 20px auto;
+     position: relative;
+     width: 150px;
+   }
+ }
 
 /*
  * Socicons
