@@ -1,0 +1,94 @@
+{
+  "basics": {
+    "name": "Josh Holloway",
+    "label": "Software Engineer",
+    "email": "josh.holloway@me.com",
+    "phone": "+447934273967",
+    "website": "http://imjoshholloway.co.uk",
+    "summary": "An enthusiastic, well rounded developer who is always looking to learn new things. I've got a passion for distributed systems, and having been exposed to micro-services at scale, I've got a good understanding of the complexities that come with them.",
+    "location": {
+      "city": "Andover",
+      "countryCode": "UK",
+      "region": "Hampshire"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "imjoshholloway",
+        "url": "https://twitter.com/imjoshholloway"
+      },
+      {
+        "network": "Linkedin",
+        "username": "imjoshholloway",
+        "url": "https://www.linkedin.com/in/imjoshholloway"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Hailo",
+      "position": "Software Engineer",
+      "startDate": "2015-09",
+      "endDate": "Now",
+      "summary": "Developing and maintaining highly available, distributed systems using a golang based micro-service platform. Building and improving core services to help other engineers in their roles. Helping improve CI/CD workflows using tools such as Docker, Jenkins, Circle CI etc. Managing and automating infrastructure through the use of tools such as Puppet and Terraform. Maintaining existing shared infrastructure (Cassandra, RabbitMQ, Zookeeper) and investigating new technologies (Consul, Kubernetes)",
+      "highlights": []
+    },
+    {
+      "company": "Threadster Ltd",
+      "position": "Software Developer",
+      "website": "",
+      "startDate": "2014-06",
+      "endDate": "2015-08",
+      "summary": "Designing and developing an microservice based e-commerce platform using a mixture of technologies including Node.js, PHP, Golang, Docker, RabbitMQ and PostgreSQL. Integrating with multiple third party APIs (payment providers, shipping service providers).",
+      "highlights": []
+    },
+    {
+      "company": "Calls2Account",
+      "position": "Software Developer",
+      "startDate": "2012-01",
+      "endDate": "2014-06",
+      "summary": "Developing and maintaining custom software applications at all levels of the system. Spearheading R&D into emerging/new technologies for use in future development cycles (node.js, angular.js). Designing and documenting solutions (for distribution both internally and to clients) Maintaining both MySQL and MongoDB databases. Designing database schemas; both relational and denormalised Maintaining and supporting legacy applications built in a variety of programming languages, including; PHP, .NET 2.0 and Adobe Flex. Setting up testing environments and performing regression testing and UAT's",
+      "highlights": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        "Golang",
+        "PHP",
+        "Javascript",
+        "HTML / CSS"
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": [
+        "Cassandra",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "Other Technologies",
+      "keywords": [
+        "RabbitMQ",
+        "NSQ",
+        "Puppet",
+        "Terraform"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sports",
+      "keywords": ["Football", "Golf", "Cycling", "Kickboxing"]
+    },
+    {
+      "name": "Technologies",
+      "keywords": ["Distributed-systems", "microservices"]
+    }
+  ]
+}
