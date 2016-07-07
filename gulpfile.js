@@ -10,7 +10,7 @@ gulp.task('build', function() {
   return gulp.src('resume.json')
     .pipe(resume({
       format: 'html',
-      theme: 'slick'
+      theme: 'class'
     }))
     .pipe(rename('resume.html'))
     .pipe(gulp.dest('.'));

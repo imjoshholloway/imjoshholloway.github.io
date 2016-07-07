@@ -5,7 +5,7 @@
     "email": "josh.holloway@me.com",
     "phone": "+447934273967",
     "website": "http://imjoshholloway.co.uk",
-    "summary": "An enthusiastic, well rounded developer who is always looking to learn new things. I've got a passion for distributed systems, and having been exposed to micro-services at scale, I've got a good understanding of the complexities that come with them.",
+    "summary": "An enthusiastic, all round developer who is always looking to improve. I'm a quick learner and love learning new things. The ability to see the bigger picture means I am able to quickly find the source of problems and fix them. I've got a passion for distributed systems, and having been exposed to micro-services at scale I've got a good understanding of the complexities that come with them.",
     "location": {
       "city": "Andover",
       "countryCode": "UK",
@@ -30,8 +30,13 @@
       "position": "Software Engineer",
       "startDate": "2015-09",
       "endDate": "Now",
-      "summary": "Developing and maintaining highly available, distributed systems using a golang based micro-service platform. Building and improving core services to help other engineers in their roles. Helping improve CI/CD workflows using tools such as Docker, Jenkins, Circle CI etc. Managing and automating infrastructure through the use of tools such as Puppet and Terraform. Maintaining existing shared infrastructure (Cassandra, RabbitMQ, Zookeeper) and investigating new technologies (Consul, Kubernetes)",
-      "highlights": []
+      "summary": "Developing and maintaining highly available, distributed systems on top of an in house Golang based micro-service platform. Peer reviewing code. Identifying and fixing performance bottlenecks/poorly designed code. Automating infrastructure changes through the use of tools such as Puppet and Terraform. Maintaining existing shared infrastructure (Cassandra, RabbitMQ, Zookeeper) and investigating new technologies (Docker, Consul, Kubernetes)",
+      "highlights": [
+        "Refactored underlying Golang framework; removing inefficent calls to core services, increasing reslience to failure and improving uptime",
+        "Replaced Jenkins with CircleCI. - Reducing costs and improving developer efficency",
+        "Refactored puppet repository, removing over 50,000 lines of unnecessary code without any breaking changes",
+        "Used docker to give developers the ability to setup their entire development environment in 1 command"
+      ]
     },
     {
       "company": "Threadster Ltd",
@@ -39,16 +44,22 @@
       "website": "",
       "startDate": "2014-06",
       "endDate": "2015-08",
-      "summary": "Designing and developing an microservice based e-commerce platform using a mixture of technologies including Node.js, PHP, Golang, Docker, RabbitMQ and PostgreSQL. Integrating with multiple third party APIs (payment providers, shipping service providers).",
-      "highlights": []
+      "summary": "Designing and developing an microservice based e-commerce platform using a mixture of technologies including Node.js, Golang, Docker, RabbitMQ and PostgreSQL. Integrating with multiple third party APIs (payment providers, shipping service providers).",
+      "highlights": [
+        "Automated label printing, increasing efficency and reducing number of incorrectly labeled / shipped orders almost zero."
+      ]
     },
     {
       "company": "Calls2Account",
       "position": "Software Developer",
       "startDate": "2012-01",
       "endDate": "2014-06",
-      "summary": "Developing and maintaining custom software applications at all levels of the system. Spearheading R&D into emerging/new technologies for use in future development cycles (node.js, angular.js). Designing and documenting solutions (for distribution both internally and to clients) Maintaining both MySQL and MongoDB databases. Designing database schemas; both relational and denormalised Maintaining and supporting legacy applications built in a variety of programming languages, including; PHP, .NET 2.0 and Adobe Flex. Setting up testing environments and performing regression testing and UAT's",
-      "highlights": []
+      "summary": "Developing and maintaining custom software applications at all levels of the system. Designing and documenting solutions (for distribution both internally and to clients) Maintaining both MySQL and MongoDB databases. Designing database schemas; both relational and denormalised. Maintaining and supporting legacy applications built in a variety of programming languages, including; PHP, .NET 2.0 and Adobe Flex. Setting up testing environments and performing regression testing and UAT's",
+      "highlights": [
+        "Replaced legacy Adobe Flex based UI with current generation HTML/JavaScript based ones",
+        "Spent time on client site in Italy to assist in debugging issues with their platform when receiving responses to API calls. Successfully finding the cause and helping implement fix",
+        "Lead research into new class of services using node. Prototyped replacement of legacy CDR processor (written in .NET) with node.js based version"
+      ]
     }
   ],
   "skills": [
@@ -57,8 +68,9 @@
       "level": "",
       "keywords": [
         "Golang",
-        "PHP",
         "Javascript",
+        "node.js",
+        "PHP",
         "HTML / CSS"
       ]
     },
@@ -77,7 +89,11 @@
         "RabbitMQ",
         "NSQ",
         "Puppet",
-        "Terraform"
+        "Terraform",
+        "AWS",
+        "Jenkins",
+        "CircleCI",
+        "Docker"
       ]
     }
   ],
@@ -88,7 +104,7 @@
     },
     {
       "name": "Technologies",
-      "keywords": ["Distributed-systems", "microservices"]
+      "keywords": ["Distributed-systems", "microservices", "Docker", "CoreOS", "Kubernetes"]
     }
   ]
 }
