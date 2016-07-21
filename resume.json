@@ -27,7 +27,7 @@
   "work": [
     {
       "company": "Hailo",
-      "position": "Software Engineer",
+      "position": "Platform Engineer",
       "startDate": "2015-09",
       "endDate": "Now",
       "summary": "Developing and maintaining highly available, distributed systems on top of an in house Golang based micro-service platform. Peer reviewing code. Identifying and fixing performance bottlenecks/poorly designed code. Automating infrastructure changes through the use of tools such as Puppet and Terraform. Maintaining existing shared infrastructure (Cassandra, RabbitMQ, Zookeeper) and investigating new technologies (Docker, Consul, Kubernetes)",
