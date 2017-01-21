@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Josh Holloway",
-    "label": "Software Engineer",
+    "label": "Site Reliability Engineer",
     "email": "josh.holloway@me.com",
     "phone": "+447934273967",
     "website": "http://imjoshholloway.co.uk",
-    "summary": "An enthusiastic, all round developer who is always looking to improve. I'm a quick learner and love learning new things. The ability to see the bigger picture means I am able to quickly find the source of problems and fix them. I've got a passion for distributed systems, and having been exposed to micro-services at scale I've got a good understanding of the complexities that come with them.",
+    "summary": "I'm an experienced Site Reliability Engineer with a track record of providing solutions for Infrastructure Automation, Provisioning and easy to use, self-service tooling to enable other engineers to be more productive. I've got a passion for distributed systems, and having been exposed to microservices at scale I've got a good understanding of the benefits and complexities that come with them. I enjoy working as part of a team but can work equally well alone.",
     "location": {
       "city": "Andover",
       "countryCode": "UK",
@@ -26,16 +26,28 @@
   },
   "work": [
     {
+      "company": "Splunk",
+      "position": "Site Reliability Engineer",
+      "startDate": "2016-09",
+      "endDate": "Now",
+      "summary": "Building and maintaining the Automation and Configuration Management systems responsible for SplunkCloud. Orchestrating the provisioning of AWS infrastructure, debugging issues with Splunk and Linux. Performing upgrades, scaling and maintenance on multi-terrabyte Splunk Clusters. Coaching other members of the team in Automation best practices and DevOps philosophies",
+      "highlights": [
+        "Reduced manual intervention required by other team members when replacing failing infrastructure using AWS Lambda and Cloudwatch Events",
+        "Improved reliability of Ansible playbooks by writing deterministic and easy to read Ansible roles"
+      ]
+    },
+    {
       "company": "Hailo",
       "position": "Platform Engineer",
       "startDate": "2015-09",
-      "endDate": "Now",
-      "summary": "Developing and maintaining highly available, distributed systems on top of an in house Golang based micro-service platform. Peer reviewing code. Identifying and fixing performance bottlenecks/poorly designed code. Automating infrastructure changes through the use of tools such as Puppet and Terraform. Maintaining existing shared infrastructure (Cassandra, RabbitMQ, Zookeeper) and investigating new technologies (Docker, Consul, Kubernetes)",
+      "endDate": "2016-09",
+      "summary": "Developing and maintaining highly available, distributed systems on top of an in house Golang based microservice platform. Peer reviewing code. Identifying and fixing performance bottlenecks/poorly designed code. Automating infrastructure changes through the use of tools such as Puppet and Terraform. Maintaining existing shared infrastructure (Cassandra, RabbitMQ, Zookeeper) and investigating new technologies (Docker, Consul, Kubernetes)",
+
       "highlights": [
         "Refactored underlying Golang framework; removing inefficent calls to core services, increasing reslience to failure and improving uptime",
         "Replaced Jenkins with CircleCI. - Reducing costs and improving developer efficency",
-        "Refactored puppet repository, removing over 50,000 lines of unnecessary code without any breaking changes",
-        "Used docker to give developers the ability to setup their entire development environment in 1 command"
+        "Refactored Puppet repository, removing over 65,000 lines of unnecessary code without any breaking changes",
+        "Used Docker to give developers the ability to setup their entire development environment in 1 command"
       ]
     },
     {
@@ -46,7 +58,8 @@
       "endDate": "2015-08",
       "summary": "Designing and developing an microservice based e-commerce platform using a mixture of technologies including Node.js, Golang, Docker, RabbitMQ and PostgreSQL. Integrating with multiple third party APIs (payment providers, shipping service providers).",
       "highlights": [
-        "Automated label printing, increasing efficency and reducing number of incorrectly labeled / shipped orders almost zero."
+        "Built a fully automated CI/CD pipeline using Jenkins CI",
+        "Automated label printing, increasing efficency and reducing number of incorrectly labeled / shipped orders almost zero"
       ]
     },
     {
@@ -54,11 +67,11 @@
       "position": "Software Developer",
       "startDate": "2012-01",
       "endDate": "2014-06",
-      "summary": "Developing and maintaining custom software applications at all levels of the system. Designing and documenting solutions (for distribution both internally and to clients) Maintaining both MySQL and MongoDB databases. Designing database schemas; both relational and denormalised. Maintaining and supporting legacy applications built in a variety of programming languages, including; PHP, .NET 2.0 and Adobe Flex. Setting up testing environments and performing regression testing and UAT's",
+      "summary": "Developing and maintaining custom software applications at all levels of the system. Designing and documenting solutions (for distribution both internally and to clients) Maintaining both MySQL and MongoDB databases. Designing database schemas; both normalised and denormalised. Maintaining and supporting legacy applications built in a variety of programming languages, including; PHP, .NET 2.0 and Adobe Flex. Setting up testing environments and performing regression testing and UAT's",
       "highlights": [
         "Replaced legacy Adobe Flex based UI with current generation HTML/JavaScript based ones",
         "Spent time on client site in Italy to assist in debugging issues with their platform when receiving responses to API calls. Successfully finding the cause and helping implement fix",
-        "Lead research into new class of services using node. Prototyped replacement of legacy CDR processor (written in .NET) with node.js based version"
+        "Lead research into new class of services using node.js. Prototyped replacement of legacy CDR processor (written in .NET) with node.js based version"
       ]
     }
   ],
@@ -68,10 +81,20 @@
       "level": "",
       "keywords": [
         "Golang",
+        "Python",
         "Javascript",
         "node.js",
-        "PHP",
         "HTML / CSS"
+      ]
+    },
+    {
+      "name": "Orchestration / Provisioning Tools",
+      "keywords": [
+        "Puppet",
+        "Ansible",
+        "Packer",
+        "Terraform",
+        "CloudFormation"
       ]
     },
     {
@@ -86,13 +109,12 @@
     {
       "name": "Other Technologies",
       "keywords": [
+        "Splunk",
         "RabbitMQ",
         "NSQ",
-        "Puppet",
-        "Terraform",
-        "AWS",
         "Jenkins",
         "CircleCI",
+        "AWS",
         "Docker"
       ]
     }
@@ -100,11 +122,11 @@
   "interests": [
     {
       "name": "Sports",
-      "keywords": ["Football", "Golf", "Cycling", "Kickboxing"]
+      "keywords": ["Football", "Golf", "Cycling"]
     },
     {
       "name": "Technologies",
-      "keywords": ["Distributed-systems", "microservices", "Docker", "CoreOS", "Kubernetes"]
+      "keywords": ["Distributed-systems", "Microservices", "Docker", "CoreOS", "Kubernetes"]
     }
   ]
 }
