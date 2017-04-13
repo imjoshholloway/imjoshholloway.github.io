@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Josh Holloway",
-    "label": "Site Reliability Engineer",
+    "label": "Distributed Systems Engineer",
     "email": "josh.holloway@me.com",
     "phone": "+447934273967",
     "website": "http://imjoshholloway.co.uk",
-    "summary": "I'm an experienced Site Reliability Engineer with a track record of providing solutions for Infrastructure Automation, Provisioning and easy to use, self-service tooling to enable other engineers to be more productive. I've got a passion for distributed systems, and having been exposed to microservices at scale I've got a good understanding of the benefits and complexities that come with them. I enjoy working as part of a team but can work equally well alone.",
+    "summary": "I'm an experienced Distributed Systems Engineer with a track record of providing solutions for automated infrastructure provisioning, design and implementation of fault-tolerant distributed systems and having worked with microservices at scale I've got a solid understanding of the benefits and complexities that come with them. I enjoy working as part of a team but can work equally well alone.",
     "location": {
       "city": "Andover",
       "countryCode": "UK",
