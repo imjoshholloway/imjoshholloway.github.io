@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Josh Holloway",
-    "label": "Distributed Systems Engineer",
+    "label": "Engineer",
     "email": "josh.holloway@me.com",
     "phone": "+447934273967",
-    "website": "http://imjoshholloway.co.uk",
-    "summary": "I'm an experienced Distributed Systems Engineer with a track record of providing solutions for automated infrastructure provisioning, design and implementation of fault-tolerant distributed systems and having worked with microservices at scale I've got a solid understanding of the benefits and complexities that come with them. I enjoy working as part of a team but can work equally well alone.",
+    "website": "http://imjoshholloway.uk",
+    "summary": "I'm an experienced engineer with a proven track record of designing and delivering solutions for a variety of problem spaces. Currently focused on automation but also open to more product focused roles.",
     "location": {
       "city": "Andover",
       "countryCode": "UK",
@@ -27,10 +27,24 @@
   "work": [
     {
       "company": "Splunk",
+      "position": "Principal Site Reliability Engineer",
+      "startDate": "2017-09",
+      "endDate": "Now",
+      "summary": "Leading a team in delivering an automation platform to replace existing provisioning systems reponsible for managing Splunk>Cloud",
+      "highlights": [
+        "Architecting automation platform designed to scale across multiple cloud providers and manage the entire lifecylce of customer environments",
+        "Utilizing automation and resiliant design to make all aspects of the infrastructure fully replaceable",
+        "Leading a team of geographically distributed remote workers",
+        "Driving technical discussions to ensure the right solution is chosen",
+        "Working with product focused teams to ensure features follow cloud best practices"
+      ]
+    },
+    {
+      "company": "Splunk",
       "position": "Site Reliability Engineer",
       "startDate": "2016-09",
-      "endDate": "Now",
-      "summary": "Building and maintaining the Automation and Configuration Management systems responsible for SplunkCloud. Orchestrating the provisioning of AWS infrastructure, debugging issues with Splunk and Linux. Performing upgrades, scaling and maintenance on multi-terrabyte Splunk Clusters. Coaching other members of the team in Automation best practices and DevOps philosophies",
+      "endDate": "2017-09",
+      "summary": "Building and maintaining the automation and configuration management systems responsible for Splunk>Cloud. Orchestrating the provisioning of AWS infrastructure, debugging issues with Splunk and Linux. Performing upgrades, scaling and maintenance on multi-terrabyte Splunk clusters. Coaching other members of the team in automation best practices and DevOps philosophies",
       "highlights": [
         "Reduced manual intervention required by other team members when replacing failing infrastructure using AWS Lambda and Cloudwatch Events",
         "Improved reliability of Ansible playbooks by writing deterministic and easy to read Ansible roles"
