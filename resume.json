@@ -5,7 +5,7 @@
     "email": "imjoshholloway@gmail.com",
     "phone": "+447934273967",
     "website": "https://imjoshholloway.uk",
-    "summary": "I'm an experienced engineer with a proven track record of designing and delivering solutions for a variety of problem spaces. Currently focused on automation but also open to more product focused roles.",
+    "summary": "I'm an experienced engineer with a proven track record of designing and delivering solutions for a variety of problem spaces. I am comfortable working with existing systems or leading the design and implementation of systems at all levels of scale. Having worked at a variety of companies from start-ups to more established market leaders as they begin their cloud transformation journey, I have a unique perspective and the experience of adapting to the challenges.",
     "location": {
       "city": "Andover",
       "countryCode": "UK",
@@ -29,10 +29,10 @@
       "company": "Splunk",
       "position": "Engineering Manager",
       "startDate": "2019-04-01",
-      "summary": "Building and leading teams to create services and tooling to make operating Splunk>Cloud more efficent.",
+      "summary": "Building and leading teams to create services and tooling designed to make operating Splunk's cloud offerings more efficient.",
       "highlights": [
         "Architecting internal platform to unify how cloud services are provisioned and managed. Created kubernetes operators to abstract the underlying implementation details to provide consistent interface for developers and operations",
-        "Working with Director and peers to provide a clear vision and roadmpa of the offerings within the organization",
+        "Working with Directors and peers to provide a clear vision and roadmap of the offerings within the organization",
         "Evaluating and prioritising stakeholder requirements from across the business",
         "Mentoring engineers to help them grow, both as individuals and as part of the team",
         "Presenting the technical vision and roadmap to various levels of the business"
@@ -43,7 +43,7 @@
       "position": "Principal Site Reliability Engineer",
       "startDate": "2017-09-01",
       "endDate": "2019-04-01",
-      "summary": "Leading a team in delivering an automation platform to replace existing provisioning systems reponsible for managing Splunk>Cloud",
+      "summary": "Leading a team in delivering an automation platform to replace existing provisioning systems reponsible for managing Splunk's cloud offering",
       "highlights": [
         "Architecting automation platform designed to scale across multiple cloud providers and manage the entire lifecylce of customer environments",
         "Utilizing automation and resiliant design to make all aspects of the infrastructure fully replaceable",
