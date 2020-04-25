@@ -1,10 +1,10 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>Josh Holloway</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" /><style>@font-face {
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Josh Holloway</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/><style>@font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?9yug7q');
-  src:  url('fonts/icomoon.eot?9yug7q#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?9yug7q') format('truetype'),
-    url('fonts/icomoon.woff?9yug7q') format('woff'),
-    url('fonts/icomoon.svg?9yug7q#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?z1lat9');
+  src:  url('fonts/icomoon.eot?z1lat9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?z1lat9') format('truetype'),
+    url('fonts/icomoon.woff?z1lat9') format('woff'),
+    url('fonts/icomoon.svg?z1lat9#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,20 +24,64 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-instagram:before {
-  content: "\e905";
+.icon-gitlab .path1:before {
+  content: "\e906";
+  color: rgb(252, 109, 38);
 }
-.icon-trophy:before {
-  content: "\e605";
+.icon-gitlab .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
 }
-.icon-office:before {
-  content: "\e606";
+.icon-gitlab .path3:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(252, 109, 38);
 }
-.icon-clock:before {
-  content: "\e60a";
+.icon-gitlab .path4:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(252, 163, 38);
 }
-.icon-reddit:before {
-  content: "\e609";
+.icon-gitlab .path5:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
+}
+.icon-gitlab .path6:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(252, 109, 38);
+}
+.icon-gitlab .path7:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(252, 163, 38);
+}
+.icon-gitlab .path8:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
+}
+.icon-meetup .path1:before {
+  content: "\e901";
+  color: rgb(255, 255, 255);
+}
+.icon-meetup .path2:before {
+  content: "\e902";
+  margin-left: -1.5em;
+  color: rgb(240, 1, 1);
+}
+.icon-meetup .path3:before {
+  content: "\e903";
+  margin-left: -1.5em;
+  color: rgb(3, 3, 3);
+}
+.icon-blogger:before {
+  content: "\e900";
+}
+.icon-exercism:before {
+  content: "\e601";
 }
 .icon-telegram:before {
   content: "\e904";
@@ -147,25 +191,20 @@
 .icon-facebook:before {
   content: "\f230";
 }
-.icon-meetup .path1:before {
-  content: "\e901";
-  color: rgb(255, 255, 255);
+.icon-instagram:before {
+  content: "\e905";
 }
-.icon-meetup .path2:before {
-  content: "\e902";
-  margin-left: -1.5em;
-  color: rgb(240, 1, 1);
+.icon-trophy:before {
+  content: "\e605";
 }
-.icon-meetup .path3:before {
-  content: "\e903";
-  margin-left: -1.5em;
-  color: rgb(3, 3, 3);
+.icon-office:before {
+  content: "\e606";
 }
-.icon-blogger:before {
-  content: "\e900";
+.icon-clock:before {
+  content: "\e60a";
 }
-.icon-exercism:before {
-  content: "\e601";
+.icon-reddit:before {
+  content: "\e609";
 }
 .icon-profile:before {
   content: "\e600";
@@ -185,12 +224,6 @@
 .icon-newspaper:before {
   content: "\e607";
 }
-.icon-dots-three-horizontal:before {
-  content: "\e60b";
-}
-.icon-thumbs-up:before {
-  content: "\e604";
-}
 .icon-chevron-down:before {
   content: "\e60c";
 }
@@ -206,7 +239,6 @@
 .icon-board:before {
   content: "\e608";
 }
-
 
 .relative {
   position: relative;
@@ -263,7 +295,7 @@
 }
 .fs-lg {
   font-size: 1.33333333em;
-  line-height: .75em;
+  line-height: 0.75em;
   vertical-align: -15%;
 }
 .fs-2x {
@@ -284,10 +316,11 @@
   padding: 0;
   outline: none !important;
 }
+/* the version when the icon file is last updated */
 @font-face {
   font-family: 'jst-elegant';
-  src: url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.eot?f218wo");
-  src: url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.ttf?f218wo") format('truetype'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
+  src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo");
+  src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.ttf?f218wo") format('truetype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -672,12 +705,12 @@ body {
   color: #d31e40;
 }
 .link-stackoverflow {
-  color: #f48024;
+  color: #8e8e92;
 }
 .link-stackoverflow:hover,
 .link-stackoverflow:focus {
   text-decoration: none;
-  color: #c3661c;
+  color: #747479;
 }
 .link-stackexchange {
   color: #62b0df;
@@ -958,8 +991,14 @@ body {
     page-break-before: always;
   }
 }
-</style></head><body itemscope="itemscope" itemtype="http://schema.org/Person"><div class="container-fluid"><div class="row main clearfix"><a class="js-floating-nav-trigger floating-nav-trigger" href="#"><i class="icon-bars"></i><span class="close-icon">&times;</span></a><nav class="floating-nav js-floating-nav"><ul class="list-unstyled"><li><a href="#about"><i class="mr-10 icon-board"></i>About</a></li><li><a href="#work-experience"><i class="mr-10 icon-office"></i>Work Experience</a></li><li><a href="#skills"><i class="mr-10 icon-tools"></i>Skills</a></li><li><a href="#interests"><i class="mr-10 icon-heart"></i>Interests</a></li></ul></nav><section class="col-md-3 card-wrapper profile-card-wrapper affix"><div class="card profile-card"><span class="profile-pic-container"><div class="profile-pic"><img class="media-object img-circle center-block" data-src="holder.js/100x100" alt="Josh Holloway" src="https://s.gravatar.com/avatar/024e36fd8e33171d793e1c46fdd48648?s=100&amp;r=pg&amp;d=mm" itemprop="image" /></div><div class="name-and-profession text-center"><h3 itemprop="name"><b>Josh Holloway</b></h3><h5 class="text-muted" itemprop="jobTitle">Engineer</h5></div></span><hr /><div class="contact-details clearfix"><div class="detail"><span class="icon"><i class="icon fs-lg icon-location"></i></span><span class="info">Andover, Hampshire, UK</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-phone"></i></span><span class="info" itemprop="telephone">+447934273967</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"><a class="link-disguise" href="/cdn-cgi/l/email-protection#e08a8f9388ce888f8c8c8f978199a08d85ce838f8d" itemprop="email"><span class="__cf_email__" data-cfemail="b1dbdec2d99fd9dedddddec6d0c8f1dcd49fd2dedc">[email&#160;protected]</span></a></span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-link"></i></span><span class="info"><a href="http://imjoshholloway.uk" target="_blank">http://imjoshholloway.uk</a></span></div></div><hr /><div class="social-links text-center"><div><a class="fs-2x social-link link-twitter icon-twitter" href="https://twitter.com/imjoshholloway" target="_blank" data-toggle="tooltip" title="Josh Holloway on Twitter"></a><a class="fs-2x social-link link-linkedin icon-linkedin" href="https://www.linkedin.com/in/imjoshholloway" target="_blank" data-toggle="tooltip" title="Josh Holloway on Linkedin"></a></div></div></div></section><section class="col-md-9 card-wrapper pull-right"><div class="card background-card"><h4 class="text-uppercase">Background</h4><hr /><div class="background-details"><div class="detail" id="about"><div class="icon"><i class="fs-lg icon-board"></i><span class="mobile-title">About</span></div><div class="info"><h4 class="title text-uppercase">About</h4><div class="card card-nested"><div class="content mop-wrapper" itemprop="description"><p>I'm an experienced engineer with a proven track record of designing and delivering solutions for a variety of problem spaces. Currently focused on automation but also open to more product focused roles.</p>
-</div></div></div></div><div class="detail" id="work-experience"><div class="icon"><i class="fs-lg icon-office"></i><span class="mobile-title">Work Experience</span></div><div class="info"><h4 class="title text-uppercase">Work Experience</h4><ul class="list-unstyled clear-margin"><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Principal Site Reliability Engineer</strong>,&nbsp;Splunk</p><p class="text-muted"><small><span class="space-right">Sep, 2017 - Now</span></small></p><div class="mop-wrapper space-bottom"><p>Leading a team in delivering an automation platform to replace existing provisioning systems reponsible for managing Splunk&gt;Cloud</p>
+</style></head><body itemscope="itemscope" itemtype="http://schema.org/Person"><div class="container-fluid"><div class="row main clearfix"><a class="js-floating-nav-trigger floating-nav-trigger" href="#"><i class="icon-bars"></i><span class="close-icon">&times;</span></a><nav class="floating-nav js-floating-nav"><ul class="list-unstyled"><li><a href="#about"><i class="mr-10 icon-board"></i>About</a></li><li><a href="#work-experience"><i class="mr-10 icon-office"></i>Work Experience</a></li><li><a href="#skills"><i class="mr-10 icon-tools"></i>Skills</a></li><li><a href="#interests"><i class="mr-10 icon-heart"></i>Interests</a></li></ul></nav><section class="col-md-3 card-wrapper profile-card-wrapper affix"><div class="card profile-card"><span class="profile-pic-container"><div class="profile-pic"><img class="media-object img-circle center-block" data-src="holder.js/100x100" alt="Josh Holloway" src="https://s.gravatar.com/avatar/817d3b736fe01a191b2f385d28ef0fe2?s=100&amp;r=pg&amp;d=mm" itemprop="image"/></div><div class="name-and-profession text-center"><h3 itemprop="name"><b>Josh Holloway</b></h3><h5 class="text-muted" itemprop="jobTitle">Engineer</h5></div></span><hr/><div class="contact-details clearfix"><div class="detail"><span class="icon"><i class="icon fs-lg icon-location"></i></span><span class="info">Andover, Hampshire, UK</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-phone"></i></span><span class="info" itemprop="telephone">+447934273967</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"><a class="link-disguise" href="mailto:imjoshholloway@gmail.com" itemprop="email">imjoshholloway@gmail.com</a></span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-link"></i></span><span class="info"><a href="https://imjoshholloway.uk" target="_blank">https://imjoshholloway.uk</a></span></div></div><hr/><div class="social-links text-center"><div><a class="fs-2x social-link link-twitter icon-twitter" href="https://twitter.com/imjoshholloway" target="_blank" data-toggle="tooltip" title="Josh Holloway on Twitter"></a><a class="fs-2x social-link link-linkedin icon-linkedin" href="https://www.linkedin.com/in/imjoshholloway" target="_blank" data-toggle="tooltip" title="Josh Holloway on Linkedin"></a></div></div></div></section><section class="col-md-9 card-wrapper pull-right"><div class="card background-card"><h4 class="text-uppercase">Background</h4><hr/><div class="background-details"><div class="detail" id="about"><div class="icon"><i class="fs-lg icon-board"></i><span class="mobile-title">About</span></div><div class="info"><h4 class="title text-uppercase">About</h4><div class="card card-nested"><div class="content mop-wrapper" itemprop="description"><p>I'm an experienced engineer with a proven track record of designing and delivering solutions for a variety of problem spaces. Currently focused on automation but also open to more product focused roles.</p>
+</div></div></div></div><div class="detail" id="work-experience"><div class="icon"><i class="fs-lg icon-office"></i><span class="mobile-title">Work Experience</span></div><div class="info"><h4 class="title text-uppercase">Work Experience</h4><ul class="list-unstyled clear-margin"><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>Engineering Manager</strong>,&nbsp;Splunk</p><p class="text-muted"><small><span class="space-right">Apr, 2019 - Present</span></small></p><div class="mop-wrapper space-bottom"><p>Building and leading teams to create services and tooling to make operating Splunk&gt;Cloud more efficent.</p>
+</div><ul><li class="mop-wrapper"><p>Architecting internal platform to unify how cloud services are provisioned and managed. Created kubernetes operators to abstract the underlying implementation details to provide consistent interface for developers and operations</p>
+</li><li class="mop-wrapper"><p>Working with Director and peers to provide a clear vision and roadmpa of the offerings within the organization</p>
+</li><li class="mop-wrapper"><p>Evaluating and prioritising stakeholder requirements from across the business</p>
+</li><li class="mop-wrapper"><p>Mentoring engineers to help them grow, both as individuals and as part of the team</p>
+</li><li class="mop-wrapper"><p>Presenting the technical vision and roadmap to various levels of the business</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Principal Site Reliability Engineer</strong>,&nbsp;Splunk</p><p class="text-muted"><small><span class="space-right">Sep, 2017 - Apr, 2019</span><span><i class="icon-clock mr-5"></i>1 year 7 months</span></small></p><div class="mop-wrapper space-bottom"><p>Leading a team in delivering an automation platform to replace existing provisioning systems reponsible for managing Splunk&gt;Cloud</p>
 </div><ul><li class="mop-wrapper"><p>Architecting automation platform designed to scale across multiple cloud providers and manage the entire lifecylce of customer environments</p>
 </li><li class="mop-wrapper"><p>Utilizing automation and resiliant design to make all aspects of the infrastructure fully replaceable</p>
 </li><li class="mop-wrapper"><p>Leading a team of geographically distributed remote workers</p>
@@ -980,7 +1019,7 @@ body {
 </div><ul><li class="mop-wrapper"><p>Replaced legacy Adobe Flex based UI with current generation HTML/JavaScript based ones</p>
 </li><li class="mop-wrapper"><p>Spent time on client site in Italy to assist in debugging issues with their platform when receiving responses to API calls. Successfully finding the cause and helping implement fix</p>
 </li><li class="mop-wrapper"><p>Lead research into new class of services using node.js. Prototyped replacement of legacy CDR processor (written in .NET) with node.js based version</p>
-</li></ul></div></li></ul></div></div><div class="detail" id="skills"><div class="icon"><i class="fs-lg icon-tools"></i><span class="mobile-title">Skills</span></div><div class="info"><h4 class="title text-uppercase">Skills</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested card-skills"><div class="skill-info"><strong>Languages</strong><div class="space-top labels"><span class="label label-keyword">Golang</span><span class="label label-keyword">Python</span><span class="label label-keyword">Javascript</span><span class="label label-keyword">node.js</span><span class="label label-keyword">HTML / CSS</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Orchestration / Provisioning Tools</strong><div class="space-top labels"><span class="label label-keyword">Puppet</span><span class="label label-keyword">Ansible</span><span class="label label-keyword">Packer</span><span class="label label-keyword">Terraform</span><span class="label label-keyword">CloudFormation</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Databases</strong><div class="space-top labels"><span class="label label-keyword">Cassandra</span><span class="label label-keyword">MySQL</span><span class="label label-keyword">PostgreSQL</span><span class="label label-keyword">MongoDB</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Other Technologies</strong><div class="space-top labels"><span class="label label-keyword">Splunk</span><span class="label label-keyword">RabbitMQ</span><span class="label label-keyword">NSQ</span><span class="label label-keyword">Jenkins</span><span class="label label-keyword">CircleCI</span><span class="label label-keyword">AWS</span><span class="label label-keyword">Docker</span></div></div></li></ul></div></div></div><div class="detail" id="interests"><div class="icon"><i class="fs-lg icon-heart"></i><span class="mobile-title">Interests</span></div><div class="info"><h4 class="title text-uppercase">Interests</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><p><strong>Sports</strong></p><div class="space-top labels"><span class="label label-keyword">Football</span><span class="label label-keyword">Golf</span><span class="label label-keyword">Cycling</span></div></li><li class="card card-nested"><p><strong>Technologies</strong></p><div class="space-top labels"><span class="label label-keyword">Distributed-systems</span><span class="label label-keyword">Microservices</span><span class="label label-keyword">Docker</span><span class="label label-keyword">CoreOS</span><span class="label label-keyword">Kubernetes</span></div></li></ul></div></div></div></div></div></section></div></div><script data-cfasync="false" src="/cdn-cgi/scripts/f2bf09f8/cloudflare-static/email-decode.min.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script><script>$(function () {
+</li></ul></div></li></ul></div></div><div class="detail" id="skills"><div class="icon"><i class="fs-lg icon-tools"></i><span class="mobile-title">Skills</span></div><div class="info"><h4 class="title text-uppercase">Skills</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested card-skills"><div class="skill-info"><strong>Languages</strong><div class="space-top labels"><span class="label label-keyword">Golang</span><span class="label label-keyword">Python</span><span class="label label-keyword">Javascript</span><span class="label label-keyword">node.js</span><span class="label label-keyword">HTML / CSS</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Orchestration / Provisioning Tools</strong><div class="space-top labels"><span class="label label-keyword">Puppet</span><span class="label label-keyword">Ansible</span><span class="label label-keyword">Packer</span><span class="label label-keyword">Terraform</span><span class="label label-keyword">CloudFormation</span><span class="label label-keyword">Kubernetes</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Databases</strong><div class="space-top labels"><span class="label label-keyword">Cassandra</span><span class="label label-keyword">MySQL</span><span class="label label-keyword">PostgreSQL</span><span class="label label-keyword">MongoDB</span><span class="label label-keyword">DynamoDB</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Other Technologies</strong><div class="space-top labels"><span class="label label-keyword">Splunk</span><span class="label label-keyword">RabbitMQ</span><span class="label label-keyword">NSQ</span><span class="label label-keyword">Jenkins</span><span class="label label-keyword">CircleCI</span><span class="label label-keyword">AWS</span><span class="label label-keyword">Docker</span></div></div></li></ul></div></div></div><div class="detail" id="interests"><div class="icon"><i class="fs-lg icon-heart"></i><span class="mobile-title">Interests</span></div><div class="info"><h4 class="title text-uppercase">Interests</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><p><strong>Sports</strong></p><div class="space-top labels"><span class="label label-keyword">Football</span><span class="label label-keyword">Golf</span><span class="label label-keyword">Cycling</span></div></li><li class="card card-nested"><p><strong>Technologies</strong></p><div class="space-top labels"><span class="label label-keyword">Distributed-systems</span><span class="label label-keyword">Microservices</span><span class="label label-keyword">Docker</span><span class="label label-keyword">CoreOS</span><span class="label label-keyword">Kubernetes</span></div></li></ul></div></div></div></div></div></section></div></div><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script><script>$(function () {
   var toggleFloatingMenu = function() {
     $( '.js-floating-nav' ).toggleClass( 'is-visible' );
     $( '.js-floating-nav-trigger' ).toggleClass( 'is-open' );

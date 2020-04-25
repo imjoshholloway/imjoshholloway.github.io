@@ -5,16 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/gulp build",
-    "serve": "./node_modules/.bin/gulp serve"
+    "build": "./node_modules/.bin/resume export resume.html --theme=elegant"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-resume": "^0.1.4",
-    "gulp-webserver": "^0.9.1"
+    "resume-cli": "^1.2.7"
   },
-  "dependencies": {}
+  "dependencies": {
+    "jsonresume-theme-elegant": "^1.13.2"
+  }
 }
